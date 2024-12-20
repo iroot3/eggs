@@ -11,7 +11,7 @@ ENV         USER=container HOME=/home/container
 WORKDIR     /home/container
 
 RUN			git clone https://github.com/Lissy93/dashy.git \
-            && npm install --global / yarn \
+            && npm install --global yarn \
 			&& cd dashy \
 			&& yarn
 
